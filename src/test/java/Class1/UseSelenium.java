@@ -8,7 +8,7 @@ public class UseSelenium {
 
     @Test
     public void useSelenium() {
-        // path of the ChromDriver
+        // path of the ChromeDriver
         System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe"); // Windows
         WebDriver driver = new ChromeDriver();
 

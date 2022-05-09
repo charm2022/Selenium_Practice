@@ -9,7 +9,7 @@ public class UseDriver {
 
     // create driver as field variable, so driver can store chromedriver object
         static WebDriver driver;
-        //if you want user use className Driver.openUrl, put static
+        //if you want user use className useDriver.openUrl, put static
         public static void openUrl(String url){
             System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
             driver =  new ChromeDriver();
