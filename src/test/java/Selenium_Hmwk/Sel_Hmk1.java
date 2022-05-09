@@ -1,4 +1,4 @@
-package Sel_Hmwk1;
+package Selenium_Hmwk;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

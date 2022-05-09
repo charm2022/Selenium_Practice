@@ -1,13 +1,12 @@
-package Sel_Hmwk1;
+package Class1;
 
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import java.util.Locale;
 
-public class UseSelenium {
+public class UseSelenium_2 {
 
 
         @Test
