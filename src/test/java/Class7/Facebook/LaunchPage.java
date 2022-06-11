@@ -17,7 +17,8 @@ public class LaunchPage {
     By messengerLocator = By.linkText("Messenger");
 
     By allLinksLocator = By.tagName("a");
-
+    By facebookPayLocator = By.xpath("//a[@title='Learn more about Facebook Pay']");
+    // or By.linkText("Facebook Pay");
 
     // Methods to interact with elements of Launch Page
     // type in login email box
@@ -65,6 +66,11 @@ public class LaunchPage {
         public int getNumberOfLinks() {
             List<WebElement> allLinks = UseDriver.getDriver().findElements(allLinksLocator);
             return allLinks.size();
+        }
+
+        public void clickFacebookPay(){
+            UseDriver.getDriver().findElement(facebookPayLocator).click();
+
         }
     }
 
